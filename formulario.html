@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo Electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="tipo_info">Tipo de Información:</label><br>
+        <select id="tipo_info" name="tipo_info">
+            <option value="hospedaje">Hospedaje</option>
+            <option value="vuelo">Reservación de Vuelo</option>
+            <option value="hotel">Reservación de Hotel</option>
+            <option value="sugerencias">Sugerencia de lugares a visitar</option>
+        </select><br><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+</html>
